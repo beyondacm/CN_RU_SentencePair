@@ -1,0 +1,23 @@
+# INSTRUCTION
+# This program is used for crawl Chinese-Russia sentence pair for tmxmall
+# This project provides an anonymous crawler for web pages.
+# For some resons, server will ban web crawler (include ban ip/refuse connections) 
+# Use a framework Scrapy
+#
+# To avoid been banned of the server, we use the following techs : 
+#   
+#   1) Forbid the cookies
+#
+#   2) Delay the time between the request 
+#   
+#   3) Random rotate the user agent of each request
+#
+#   4) Random rotate the proxy ip of the client 
+#
+# Tutorial :
+#
+# step_1 : Run script in IP_Detect/python_candidates.py  
+# step_2 : Run script in IP_Detect/python_detect.py
+# step_3 : Run script in Russia/scrapy crawl pages
+# step_4 : Run script in Russia/scrapy crawl russia
+#
